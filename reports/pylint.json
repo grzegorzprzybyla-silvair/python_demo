@@ -1,0 +1,156 @@
+[
+    {
+        "type": "convention",
+        "module": "example",
+        "obj": "",
+        "line": 2,
+        "column": 11,
+        "path": "example.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "example",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "path": "example.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "warning",
+        "module": "example",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "path": "example.py",
+        "symbol": "mixed-indentation",
+        "message": "Found indentation with tabs instead of spaces",
+        "message-id": "W0312"
+    },
+    {
+        "type": "warning",
+        "module": "example",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "path": "example.py",
+        "symbol": "mixed-indentation",
+        "message": "Found indentation with tabs instead of spaces",
+        "message-id": "W0312"
+    },
+    {
+        "type": "warning",
+        "module": "example",
+        "obj": "",
+        "line": 9,
+        "column": 0,
+        "path": "example.py",
+        "symbol": "mixed-indentation",
+        "message": "Found indentation with tabs instead of spaces",
+        "message-id": "W0312"
+    },
+    {
+        "type": "warning",
+        "module": "example",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "path": "example.py",
+        "symbol": "mixed-indentation",
+        "message": "Found indentation with tabs instead of spaces",
+        "message-id": "W0312"
+    },
+    {
+        "type": "convention",
+        "module": "example",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "path": "example.py",
+        "symbol": "missing-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0111"
+    },
+    {
+        "type": "convention",
+        "module": "example",
+        "obj": "Test",
+        "line": 2,
+        "column": 0,
+        "path": "example.py",
+        "symbol": "missing-docstring",
+        "message": "Missing class docstring",
+        "message-id": "C0111"
+    },
+    {
+        "type": "error",
+        "module": "example",
+        "obj": "Test.__init__",
+        "line": 4,
+        "column": 1,
+        "path": "example.py",
+        "symbol": "no-self-argument",
+        "message": "Method should have \"self\" as first argument",
+        "message-id": "E0213"
+    },
+    {
+        "type": "error",
+        "module": "example",
+        "obj": "Test.__init__",
+        "line": 5,
+        "column": 2,
+        "path": "example.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'self'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "refactor",
+        "module": "example",
+        "obj": "Test",
+        "line": 2,
+        "column": 0,
+        "path": "example.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (0/2)",
+        "message-id": "R0903"
+    },
+    {
+        "type": "error",
+        "module": "example",
+        "obj": "",
+        "line": 8,
+        "column": 3,
+        "path": "example.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable '__main__'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "convention",
+        "module": "example",
+        "obj": "",
+        "line": 9,
+        "column": 1,
+        "path": "example.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"test\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "example",
+        "obj": "",
+        "line": 10,
+        "column": 1,
+        "path": "example.py",
+        "symbol": "no-member",
+        "message": "Instance of 'Test' has no 'bar' member",
+        "message-id": "E1101"
+    }
+]
