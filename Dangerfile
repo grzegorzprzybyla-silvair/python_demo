@@ -1,5 +1,5 @@
 warnings.report(          
   parser: :pylint,
-  file: 'reports/pylint.json',
+  file: 'reports/pylint.txt',
   filter: false
 )
